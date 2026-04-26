@@ -1,0 +1,16 @@
+name: Capacium Sync
+url: https://capacium.xyz
+hook_attributes:
+  url: https://your-app-domain.com/webhook
+public: true
+default_events:
+  - push
+  - release
+  - create
+  - installation
+  - installation_repositories
+default_permissions:
+  contents: read
+  metadata: read
+  id_token: write
+  attestations: read
