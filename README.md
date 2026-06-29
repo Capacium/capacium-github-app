@@ -1,5 +1,9 @@
 # Capacium GitHub App
 
+> [!NOTE]
+> **Public mirror.** The canonical repository is hosted on our self-hosted git.
+> This GitHub copy is a read-only mirror kept in sync for visibility and installation.
+
 [![CI](https://github.com/Capacium/capacium-github-app/actions/workflows/ci.yml/badge.svg)](https://github.com/Capacium/capacium-github-app/actions/workflows/ci.yml)
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue)
