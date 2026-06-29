@@ -109,3 +109,9 @@ curl -X POST http://localhost:8080/webhook \
   -H "X-Hub-Signature-256: sha256=..." \
   -d '{"repository":{"full_name":"owner/repo"},"ref":"refs/heads/main","commits":[{"added":["capability.yaml"],"modified":[],"removed":[]}]}'
 ```
+
+## Development
+
+Canonical repository: **self-hosted Forgejo** — `git.langevc.com/capacium/capacium-github-app`
+(`git clone git@git.langevc.com:capacium/capacium-github-app.git`). Develop against the Forgejo
+clone and open pull requests there. The GitHub copy is a read-only mirror.
